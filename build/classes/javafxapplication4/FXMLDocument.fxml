@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #3D4956;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication4.FXMLDocumentController">
+   <children>
+      <GridPane layoutX="157.0" layoutY="101.0" prefHeight="529.0" prefWidth="1078.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <JFXButton fx:id="element1" buttonType="RAISED" onAction="#textchanger" prefHeight="41.0" prefWidth="104.0" text="H" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element2" buttonType="RAISED" onAction="#textchanger" prefHeight="85.0" prefWidth="98.0" text="He" textFill="WHITE" GridPane.columnIndex="17">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element3" buttonType="RAISED" onAction="#textchanger" prefHeight="120.0" prefWidth="65.0" text="Li" textFill="WHITE" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element11" buttonType="RAISED" onAction="#textchanger" prefHeight="156.0" prefWidth="137.0" text="Na" textFill="WHITE" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element19" buttonType="RAISED" onAction="#textchanger" prefHeight="144.0" prefWidth="141.0" text="K" textFill="WHITE" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element37" buttonType="RAISED" onAction="#textchanger" prefHeight="112.0" prefWidth="71.0" text="Rb" textFill="WHITE" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element55" buttonType="RAISED" onAction="#textchanger" prefHeight="125.0" prefWidth="79.0" text="Cs" textFill="WHITE" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element87" buttonType="RAISED" onAction="#textchanger" prefHeight="99.0" prefWidth="127.0" text="Fr" textFill="WHITE" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element4" buttonType="RAISED" onAction="#textchanger" prefHeight="95.0" prefWidth="65.0" text="Be" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element12" buttonType="RAISED" onAction="#textchanger" prefHeight="87.0" prefWidth="65.0" text="Mg" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element20" buttonType="RAISED" onAction="#textchanger" prefHeight="154.0" prefWidth="62.0" text="Ca" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element38" buttonType="RAISED" onAction="#textchanger" prefHeight="106.0" prefWidth="65.0" text="Sr" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element56" buttonType="RAISED" onAction="#textchanger" prefHeight="103.0" prefWidth="65.0" text="Ba" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element88" buttonType="RAISED" onAction="#textchanger" prefHeight="99.0" prefWidth="65.0" text="Ra" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element21" buttonType="RAISED" onAction="#textchanger" prefHeight="95.0" prefWidth="65.0" text="Sc" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element39" buttonType="RAISED" onAction="#textchanger" prefHeight="100.0" prefWidth="65.0" text="Y" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element57" buttonType="RAISED" onAction="#textchanger" prefHeight="105.0" prefWidth="65.0" text="La" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element89" buttonType="RAISED" onAction="#textchanger" prefHeight="121.0" prefWidth="65.0" text="Ac" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element22" buttonType="RAISED" onAction="#textchanger" prefHeight="110.0" prefWidth="65.0" text="Ti" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element40" buttonType="RAISED" onAction="#textchanger" prefHeight="115.0" prefWidth="65.0" text="Zr" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element72" buttonType="RAISED" onAction="#textchanger" prefHeight="98.0" prefWidth="65.0" text="Hf" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element104" buttonType="RAISED" onAction="#textchanger" prefHeight="102.0" prefWidth="65.0" text="Rf" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element23" buttonType="RAISED" onAction="#textchanger" prefHeight="90.0" prefWidth="65.0" text="V" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element41" buttonType="RAISED" onAction="#textchanger" prefHeight="110.0" prefWidth="65.0" text="Nb" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element73" buttonType="RAISED" onAction="#textchanger" prefHeight="103.0" prefWidth="65.0" text="Ta" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element105" buttonType="RAISED" onAction="#textchanger" prefHeight="119.0" prefWidth="65.0" text="Db" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element24" buttonType="RAISED" onAction="#textchanger" prefHeight="103.0" prefWidth="65.0" text="Cr" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element42" buttonType="RAISED" onAction="#textchanger" prefHeight="95.0" prefWidth="65.0" text="Mo" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element74" buttonType="RAISED" onAction="#textchanger" prefHeight="99.0" prefWidth="65.0" text="W" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element106" buttonType="RAISED" onAction="#textchanger" prefHeight="125.0" prefWidth="65.0" text="Sg" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element25" buttonType="RAISED" onAction="#textchanger" prefHeight="89.0" prefWidth="65.0" text="Mn" textFill="WHITE" GridPane.columnIndex="6" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element43" buttonType="RAISED" onAction="#textchanger" prefHeight="84.0" prefWidth="65.0" text="Tc" textFill="WHITE" GridPane.columnIndex="6" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element75" buttonType="RAISED" onAction="#textchanger" prefHeight="93.0" prefWidth="65.0" text="Re" textFill="WHITE" GridPane.columnIndex="6" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element107" buttonType="RAISED" onAction="#textchanger" prefHeight="85.0" prefWidth="75.0" text="Bh" textFill="WHITE" GridPane.columnIndex="6" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element26" buttonType="RAISED" onAction="#textchanger" prefHeight="94.0" prefWidth="100.0" text="Fe" textFill="WHITE" GridPane.columnIndex="7" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element44" buttonType="RAISED" onAction="#textchanger" prefHeight="106.0" prefWidth="113.0" text="Ru" textFill="WHITE" GridPane.columnIndex="7" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element76" buttonType="RAISED" onAction="#textchanger" prefHeight="107.0" prefWidth="83.0" text="Os" textFill="WHITE" GridPane.columnIndex="7" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element108" buttonType="RAISED" onAction="#textchanger" prefHeight="125.0" prefWidth="70.0" text="Hs" textFill="WHITE" GridPane.columnIndex="7" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element27" buttonType="RAISED" onAction="#textchanger" prefHeight="103.0" prefWidth="85.0" text="Co" textFill="WHITE" GridPane.columnIndex="8" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element45" buttonType="RAISED" onAction="#textchanger" prefHeight="104.0" prefWidth="87.0" text="Rh" textFill="WHITE" GridPane.columnIndex="8" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element77" buttonType="RAISED" onAction="#textchanger" prefHeight="89.0" prefWidth="73.0" text="Ir" textFill="WHITE" GridPane.columnIndex="8" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element109" buttonType="RAISED" onAction="#textchanger" prefHeight="130.0" prefWidth="87.0" text="Mt" textFill="WHITE" GridPane.columnIndex="8" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element28" buttonType="RAISED" onAction="#textchanger" prefHeight="90.0" prefWidth="76.0" text="Ni" textFill="WHITE" GridPane.columnIndex="9" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element46" buttonType="RAISED" onAction="#textchanger" prefHeight="96.0" prefWidth="65.0" text="Pd" textFill="WHITE" GridPane.columnIndex="9" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element78" buttonType="RAISED" onAction="#textchanger" prefHeight="93.0" prefWidth="65.0" text="Pt" textFill="WHITE" GridPane.columnIndex="9" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element110" buttonType="RAISED" onAction="#textchanger" prefHeight="122.0" prefWidth="72.0" text="Ds" textFill="WHITE" GridPane.columnIndex="9" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element29" buttonType="RAISED" onAction="#textchanger" prefHeight="96.0" prefWidth="80.0" text="Cu" textFill="WHITE" GridPane.columnIndex="10" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element47" buttonType="RAISED" onAction="#textchanger" prefHeight="104.0" prefWidth="96.0" text="Ag" textFill="WHITE" GridPane.columnIndex="10" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element79" buttonType="RAISED" onAction="#textchanger" prefHeight="97.0" prefWidth="70.0" text="Au" textFill="WHITE" GridPane.columnIndex="10" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element111" buttonType="RAISED" onAction="#textchanger" prefHeight="116.0" prefWidth="72.0" text="Rg" textFill="WHITE" GridPane.columnIndex="10" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element30" buttonType="RAISED" onAction="#textchanger" prefHeight="116.0" prefWidth="120.0" text="Zn" textFill="WHITE" GridPane.columnIndex="11" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element31" buttonType="RAISED" onAction="#textchanger" prefHeight="103.0" prefWidth="81.0" text="Ga" textFill="WHITE" GridPane.columnIndex="12" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element32" buttonType="RAISED" onAction="#textchanger" prefHeight="106.0" prefWidth="65.0" text="Ge" textFill="WHITE" GridPane.columnIndex="13" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element33" buttonType="RAISED" onAction="#textchanger" prefHeight="94.0" prefWidth="112.0" text="As" textFill="WHITE" GridPane.columnIndex="14" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element34" buttonType="RAISED" onAction="#textchanger" prefHeight="107.0" prefWidth="65.0" text="Se" textFill="WHITE" GridPane.columnIndex="15" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element36" buttonType="RAISED" onAction="#textchanger" prefHeight="103.0" prefWidth="96.0" text="Kr" textFill="WHITE" GridPane.columnIndex="17" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element48" buttonType="RAISED" onAction="#textchanger" prefHeight="109.0" prefWidth="88.0" text="Cd" textFill="WHITE" GridPane.columnIndex="11" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element49" buttonType="RAISED" onAction="#textchanger" prefHeight="108.0" prefWidth="70.0" text="In" textFill="WHITE" GridPane.columnIndex="12" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element50" buttonType="RAISED" onAction="#textchanger" prefHeight="106.0" prefWidth="129.0" text="Sn" textFill="WHITE" GridPane.columnIndex="13" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element51" buttonType="RAISED" onAction="#textchanger" prefHeight="88.0" prefWidth="83.0" text="Sb" textFill="WHITE" GridPane.columnIndex="14" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element52" buttonType="RAISED" onAction="#textchanger" prefHeight="118.0" prefWidth="76.0" text="Te" textFill="WHITE" GridPane.columnIndex="15" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element54" buttonType="RAISED" onAction="#textchanger" prefHeight="105.0" prefWidth="98.0" text="Xe" textFill="WHITE" GridPane.columnIndex="17" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element80" buttonType="RAISED" onAction="#textchanger" prefHeight="112.0" prefWidth="101.0" text="Hg" textFill="WHITE" GridPane.columnIndex="11" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element81" buttonType="RAISED" onAction="#textchanger" prefHeight="137.0" prefWidth="74.0" text="Tl" textFill="WHITE" GridPane.columnIndex="12" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element82" buttonType="RAISED" onAction="#textchanger" prefHeight="118.0" prefWidth="91.0" text="Pb" textFill="WHITE" GridPane.columnIndex="13" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element83" buttonType="RAISED" onAction="#textchanger" prefHeight="125.0" prefWidth="80.0" text="Bi" textFill="WHITE" GridPane.columnIndex="14" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element84" buttonType="RAISED" onAction="#textchanger" prefHeight="120.0" prefWidth="73.0" text="Po" textFill="WHITE" GridPane.columnIndex="15" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element86" buttonType="RAISED" onAction="#textchanger" prefHeight="114.0" prefWidth="75.0" text="Rn" textFill="WHITE" GridPane.columnIndex="17" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element112" buttonType="RAISED" onAction="#textchanger" prefHeight="134.0" prefWidth="111.0" text="Cn" textFill="WHITE" GridPane.columnIndex="11" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element113" buttonType="RAISED" onAction="#textchanger" prefHeight="148.0" prefWidth="69.0" text="Nh" textFill="WHITE" GridPane.columnIndex="12" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element114" buttonType="RAISED" onAction="#textchanger" prefHeight="124.0" prefWidth="90.0" text="Fl" textFill="WHITE" GridPane.columnIndex="13" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element115" buttonType="RAISED" onAction="#textchanger" prefHeight="113.0" prefWidth="74.0" text="Mc" textFill="WHITE" GridPane.columnIndex="14" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element116" buttonType="RAISED" onAction="#textchanger" prefHeight="122.0" prefWidth="69.0" text="Lv" textFill="WHITE" GridPane.columnIndex="15" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element118" buttonType="RAISED" onAction="#textchanger" prefHeight="145.0" prefWidth="67.0" text="Og" textFill="WHITE" GridPane.columnIndex="17" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element18" buttonType="RAISED" onAction="#textchanger" prefHeight="108.0" prefWidth="73.0" text="Ar" textFill="WHITE" GridPane.columnIndex="17" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element10" buttonType="RAISED" onAction="#textchanger" prefHeight="96.0" prefWidth="82.0" text="Ne" textFill="WHITE" GridPane.columnIndex="17" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element14" buttonType="RAISED" onAction="#textchanger" prefHeight="125.0" prefWidth="92.0" text="Si" textFill="WHITE" GridPane.columnIndex="13" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element15" buttonType="RAISED" onAction="#textchanger" prefHeight="108.0" prefWidth="75.0" text="P" textFill="WHITE" GridPane.columnIndex="14" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element16" buttonType="RAISED" onAction="#textchanger" prefHeight="105.0" prefWidth="76.0" text="S" textFill="WHITE" GridPane.columnIndex="15" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element17" buttonType="RAISED" onAction="#textchanger" prefHeight="107.0" prefWidth="65.0" text="Cl" textFill="WHITE" GridPane.columnIndex="16" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element6" buttonType="RAISED" onAction="#textchanger" prefHeight="98.0" prefWidth="91.0" text="C" textFill="WHITE" GridPane.columnIndex="13" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element7" buttonType="RAISED" onAction="#textchanger" prefHeight="99.0" prefWidth="101.0" text="N" textFill="WHITE" GridPane.columnIndex="14" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element8" buttonType="RAISED" onAction="#textchanger" prefHeight="86.0" prefWidth="74.0" text="O" textFill="WHITE" GridPane.columnIndex="15" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element9" buttonType="RAISED" onAction="#textchanger" prefHeight="104.0" prefWidth="74.0" text="F" textFill="WHITE" GridPane.columnIndex="16" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element5" buttonType="RAISED" onAction="#textchanger" prefHeight="126.0" prefWidth="166.0" text="B" textFill="WHITE" GridPane.columnIndex="12" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element13" buttonType="RAISED" onAction="#textchanger" prefHeight="104.0" prefWidth="69.0" text="Al" textFill="WHITE" GridPane.columnIndex="12" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element35" buttonType="RAISED" onAction="#textchanger" prefHeight="89.0" prefWidth="72.0" text="Br" textFill="WHITE" GridPane.columnIndex="16" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element53" buttonType="RAISED" onAction="#textchanger" prefHeight="95.0" prefWidth="86.0" text="I" textFill="WHITE" GridPane.columnIndex="16" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element85" buttonType="RAISED" onAction="#textchanger" prefHeight="93.0" prefWidth="85.0" text="At" textFill="WHITE" GridPane.columnIndex="16" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="element117" buttonType="RAISED" onAction="#textchanger" prefHeight="102.0" prefWidth="76.0" text="Ts" textFill="WHITE" GridPane.columnIndex="16" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font></JFXButton>
+            <Label fx:id="taki" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FFFF00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="taki112" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.rowIndex="4" />
+            <Label fx:id="taki113" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.rowIndex="5" />
+            <Label fx:id="taki114" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.rowIndex="6" />
+            <Label fx:id="taki115" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #4169E1;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="taki116" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="16" GridPane.rowIndex="2" />
+            <Label fx:id="taki117" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #4169E1;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="taki118" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #4169E1;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label fx:id="taki119" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.8" scaleY="0.2" style="-fx-background-color: #4169E1;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label fx:id="taki1110" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #4169E1;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label fx:id="taki1111" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Label fx:id="taki1112" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Label fx:id="taki1113" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF6347;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Label fx:id="taki1114" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.8" scaleY="0.2" style="-fx-background-color: #008000;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Label fx:id="taki1115" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Label fx:id="taki1116" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Label fx:id="taki1117" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Label fx:id="taki1118" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Label fx:id="taki1119" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Label fx:id="taki1120" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Label fx:id="taki1121" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Label fx:id="taki1122" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Label fx:id="taki1123" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Label fx:id="taki1124" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Label fx:id="taki1125" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Label fx:id="taki1126" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <Label fx:id="taki1127" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Label fx:id="taki1128" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Label fx:id="taki1129" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Label fx:id="taki1130" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <Label fx:id="taki1131" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <Label fx:id="taki1132" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <Label fx:id="taki1133" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <Label fx:id="taki1134" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #4169E1;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="12" GridPane.rowIndex="6" />
+            <Label fx:id="taki1135" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #4169E1;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="12" GridPane.rowIndex="5" />
+            <Label fx:id="taki1136" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #4169E1;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="12" GridPane.rowIndex="4" />
+            <Label fx:id="taki1137" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #4169E1;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="12" GridPane.rowIndex="3" />
+            <Label fx:id="taki1138" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="11" GridPane.rowIndex="6" />
+            <Label fx:id="taki1139" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="11" GridPane.rowIndex="5" />
+            <Label fx:id="taki1140" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="11" GridPane.rowIndex="4" />
+            <Label fx:id="taki1141" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="11" GridPane.rowIndex="3" />
+            <Label fx:id="taki1142" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="10" GridPane.rowIndex="6" />
+            <Label fx:id="taki1143" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="10" GridPane.rowIndex="5" />
+            <Label fx:id="taki1144" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+            <Label fx:id="taki1145" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="10" GridPane.rowIndex="3" />
+            <Label fx:id="taki1146" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+            <Label fx:id="taki1147" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+            <Label fx:id="taki1148" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+            <Label fx:id="taki1149" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+            <Label fx:id="taki1150" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+            <Label fx:id="taki1151" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+            <Label fx:id="taki1152" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+            <Label fx:id="taki1153" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+            <Label fx:id="taki1154" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FF8C00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+            <Label fx:id="taki1155" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FFFF00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="14" GridPane.rowIndex="1" />
+            <Label fx:id="taki1156" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #4169E1;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="13" GridPane.rowIndex="6" />
+            <Label fx:id="taki1157" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="12" GridPane.rowIndex="1" />
+            <Label fx:id="taki1158" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #4169E1;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="13" GridPane.rowIndex="5" />
+            <Label fx:id="taki1159" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #4169E1;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="13" GridPane.rowIndex="4" />
+            <Label fx:id="taki1160" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="13" GridPane.rowIndex="3" />
+            <Label fx:id="taki1161" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="13" GridPane.rowIndex="2" />
+            <Label fx:id="taki1162" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FFFF00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="13" GridPane.rowIndex="1" />
+            <Label fx:id="taki1163" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #4169E1;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="12" GridPane.rowIndex="2" />
+            <Label fx:id="taki1175" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FFFF00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="14" GridPane.rowIndex="2" />
+            <Label fx:id="taki1174" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="14" GridPane.rowIndex="3" />
+            <Label fx:id="taki1173" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="14" GridPane.rowIndex="4" />
+            <Label fx:id="taki1172" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #4169E1;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="14" GridPane.rowIndex="5" />
+            <Label fx:id="taki1171" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #4169E1;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="14" GridPane.rowIndex="6" />
+            <Label fx:id="taki1170" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FFFF00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="15" GridPane.rowIndex="1" />
+            <Label fx:id="taki1169" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FFFF00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="15" GridPane.rowIndex="2" />
+            <Label fx:id="taki1168" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #FFFF00;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="15" GridPane.rowIndex="3" />
+            <Label fx:id="taki1167" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="15" GridPane.rowIndex="4" />
+            <Label fx:id="taki1166" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="15" GridPane.rowIndex="5" />
+            <Label fx:id="taki1165" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #4169E1;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="15" GridPane.rowIndex="6" />
+            <Label fx:id="taki1164" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="16" GridPane.rowIndex="1" />
+            <Label fx:id="taki1176" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #9400D3;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="17" GridPane.rowIndex="3" />
+            <Label fx:id="taki1177" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #9400D3;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="17" GridPane.rowIndex="2" />
+            <Label fx:id="taki1178" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #9400D3;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="17" GridPane.rowIndex="1" />
+            <Label fx:id="taki1179" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #9400D3;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="17" />
+            <Label fx:id="taki1180" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="16" GridPane.rowIndex="6" />
+            <Label fx:id="taki1181" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="16" GridPane.rowIndex="5" />
+            <Label fx:id="taki1182" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="16" GridPane.rowIndex="4" />
+            <Label fx:id="taki1183" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="16" GridPane.rowIndex="3" />
+            <Label fx:id="taki11105" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #9400D3;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="17" GridPane.rowIndex="6" />
+            <Label fx:id="taki11106" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #9400D3;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="17" GridPane.rowIndex="4" />
+            <Label fx:id="taki111061" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #9400D3;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="17" GridPane.rowIndex="5" />
+            <Label fx:id="taki111062" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.rowIndex="3" />
+            <Label fx:id="taki111063" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.rowIndex="2" />
+            <Label fx:id="taki111064" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: #4169E1;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="taki111065" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.5" scaleY="0.2" style="-fx-background-color: red;" textAlignment="CENTER" translateX="23.0" translateY="34.0" translateZ="5.0" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <Label fx:id="text" layoutX="1525.0" layoutY="153.0" prefHeight="55.0" prefWidth="62.0" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Italic" size="22.0" />
+         </font></Label>
+      <Label fx:id="textFamilie" layoutX="1417.0" layoutY="66.0" prefHeight="48.0" prefWidth="357.0" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="1326.0" layoutY="238.0" prefHeight="48.0" prefWidth="69.0" text=" proton :" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="protonNumber" layoutX="1348.0" layoutY="296.0" prefHeight="37.0" prefWidth="51.0" textAlignment="JUSTIFY" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="1494.0" layoutY="238.0" prefHeight="48.0" prefWidth="101.0" text="   neutron :" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="neutronNumber" layoutX="1531.0" layoutY="296.0" prefHeight="37.0" prefWidth="51.0" textAlignment="JUSTIFY" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="1705.0" layoutY="238.0" prefHeight="48.0" prefWidth="85.0" text="  électron :" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="electronNumber" layoutX="1743.0" layoutY="296.0" prefHeight="37.0" prefWidth="62.0" textAlignment="JUSTIFY" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="1361.0" layoutY="433.0" prefHeight="48.0" prefWidth="154.0" text="nombre de masse :" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="nombreDeMasse" layoutX="1582.0" layoutY="437.0" prefHeight="41.0" prefWidth="146.0" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="1395.0" layoutY="503.0" prefHeight="37.0" prefWidth="69.0" text="masse :" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label layoutX="1357.0" layoutY="577.0" prefHeight="37.0" prefWidth="126.0" text="masse molaire :" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="1353.0" layoutY="649.0" prefHeight="37.0" prefWidth="135.0" text="volume molaire :" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="mass" layoutX="1326.0" layoutY="630.0" prefHeight="37.0" prefWidth="94.0" />
+      <Label layoutX="1326.0" layoutY="725.0" text="quantité de matière:" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="massEnGramme" layoutX="1582.0" layoutY="503.0" prefHeight="37.0" prefWidth="310.0" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="massMolaire" layoutX="1587.0" layoutY="577.0" prefHeight="37.0" prefWidth="180.0" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="volumeMolaire" layoutX="1582.0" layoutY="649.0" prefHeight="37.0" prefWidth="202.0" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="quantiteDeMatiere" layoutX="1570.0" layoutY="725.0" prefHeight="28.0" prefWidth="282.0" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <GridPane layoutX="278.0" layoutY="683.0" prefHeight="144.0" prefWidth="771.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <JFXButton fx:id="element58" onAction="#textchanger" prefHeight="83.0" prefWidth="93.0" text="Ce" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element59" onAction="#textchanger" prefHeight="64.0" prefWidth="62.0" text="Pr" textFill="WHITE" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element60" onAction="#textchanger" prefHeight="64.0" prefWidth="77.0" text="Nd" textFill="WHITE" GridPane.columnIndex="2">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element61" onAction="#textchanger" prefHeight="64.0" prefWidth="87.0" text="Pm" textFill="WHITE" GridPane.columnIndex="3">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element62" onAction="#textchanger" prefHeight="64.0" prefWidth="82.0" text="Sm" textFill="WHITE" GridPane.columnIndex="4">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element63" onAction="#textchanger" prefHeight="64.0" prefWidth="72.0" text="Eu" textFill="WHITE" GridPane.columnIndex="5">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element64" onAction="#textchanger" prefHeight="93.0" prefWidth="74.0" text="Gd" textFill="WHITE" GridPane.columnIndex="6">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element65" onAction="#textchanger" prefHeight="91.0" prefWidth="73.0" text="Tb" textFill="WHITE" GridPane.columnIndex="7">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element66" onAction="#textchanger" prefHeight="82.0" prefWidth="62.0" text="Dy" textFill="WHITE" GridPane.columnIndex="8">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element67" onAction="#textchanger" prefHeight="78.0" prefWidth="60.0" text="Ho" textFill="WHITE" GridPane.columnIndex="9">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element68" onAction="#textchanger" prefHeight="64.0" prefWidth="79.0" text="Er" textFill="WHITE" GridPane.columnIndex="10">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element69" onAction="#textchanger" prefHeight="110.0" prefWidth="58.0" text="Tm" textFill="WHITE" GridPane.columnIndex="11">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element70" onAction="#textchanger" prefHeight="94.0" prefWidth="51.0" text="Yb" textFill="WHITE" GridPane.columnIndex="12">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element71" onAction="#textchanger" prefHeight="103.0" prefWidth="58.0" text="Lu" textFill="WHITE" GridPane.columnIndex="13">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element90" onAction="#textchanger" prefHeight="63.0" prefWidth="76.0" text="Th" textFill="WHITE" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element91" onAction="#textchanger" prefHeight="63.0" prefWidth="72.0" text="Pa" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element92" onAction="#textchanger" prefHeight="63.0" prefWidth="71.0" text="U" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element93" onAction="#textchanger" prefHeight="63.0" prefWidth="79.0" text="Np" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element94" onAction="#textchanger" prefHeight="63.0" prefWidth="70.0" text="Pu" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element95" onAction="#textchanger" prefHeight="63.0" prefWidth="82.0" text="Am" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element96" onAction="#textchanger" prefHeight="63.0" prefWidth="67.0" text="Cm" textFill="WHITE" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element97" onAction="#textchanger" prefHeight="63.0" prefWidth="71.0" text="Bk" textFill="WHITE" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element98" onAction="#textchanger" prefHeight="63.0" prefWidth="72.0" text="Cf" textFill="WHITE" GridPane.columnIndex="8" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element99" onAction="#textchanger" prefHeight="63.0" prefWidth="94.0" text="Es" textFill="WHITE" GridPane.columnIndex="9" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element100" onAction="#textchanger" prefHeight="63.0" prefWidth="88.0" text="Fm" textFill="WHITE" GridPane.columnIndex="10" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element101" onAction="#textchanger" prefHeight="63.0" prefWidth="66.0" text="Md" textFill="WHITE" GridPane.columnIndex="11" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element102" onAction="#textchanger" prefHeight="63.0" prefWidth="89.0" text="No" textFill="WHITE" GridPane.columnIndex="12" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="element103" onAction="#textchanger" prefHeight="63.0" prefWidth="99.0" text="Lr" textFill="WHITE" GridPane.columnIndex="13" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="19.0" />
+               </font>
+            </JFXButton>
+            <Label fx:id="taki11104" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #008000;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="12" GridPane.rowIndex="1" />
+            <Label fx:id="taki11103" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #FF6347;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="1" />
+            <Label fx:id="taki11102" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #FF6347;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="2" />
+            <Label fx:id="taki11101" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #FF6347;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="3" />
+            <Label fx:id="taki11100" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #FF6347;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="4" />
+            <Label fx:id="taki1199" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #FF6347;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="5" />
+            <Label fx:id="taki1198" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #FF6347;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="6" />
+            <Label fx:id="taki1197" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #FF6347;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="7" />
+            <Label fx:id="taki1196" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #FF6347;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="8" />
+            <Label fx:id="taki1195" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #FF6347;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="9" />
+            <Label fx:id="taki1194" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #FF6347;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="10" />
+            <Label fx:id="taki1193" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #FF6347;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="11" />
+            <Label fx:id="taki1192" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #FF6347;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="12" />
+            <Label fx:id="taki1191" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #FF6347;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="13" />
+            <Label fx:id="taki1190" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #008000;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.rowIndex="1" />
+            <Label fx:id="taki1189" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #008000;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="taki1188" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #008000;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label fx:id="taki1187" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #008000;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Label fx:id="taki1186" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #008000;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Label fx:id="taki1185" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #008000;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Label fx:id="taki11107" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #008000;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="11" GridPane.rowIndex="1" />
+            <Label fx:id="taki11108" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #008000;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+            <Label fx:id="taki11109" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #008000;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+            <Label fx:id="taki11110" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #008000;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <Label fx:id="taki11111" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #008000;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Label fx:id="taki11112" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #008000;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Label fx:id="taki11114" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #008000;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" GridPane.columnIndex="13" GridPane.rowIndex="1" />
+            <Label fx:id="taki11113" alignment="TOP_CENTER" contentDisplay="BOTTOM" prefHeight="21.0" prefWidth="16.0" scaleX="3.0" scaleY="0.2" style="-fx-background-color: #FF6347;" textAlignment="CENTER" translateX="18.0" translateY="28.0" translateZ="5.0" />
+         </children>
+      </GridPane>
+      <Label fx:id="nameView" layoutX="1604.0" layoutY="153.0" prefHeight="55.0" prefWidth="202.0" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <JFXHamburger fx:id="hamburger" layoutX="14.0" prefHeight="48.0" prefWidth="48.0" />
+      <JFXDrawer fx:id="drawer" defaultDrawerSize="190.0" layoutY="39.0" prefHeight="786.0" prefWidth="164.0" />
+   </children>
+</AnchorPane>
